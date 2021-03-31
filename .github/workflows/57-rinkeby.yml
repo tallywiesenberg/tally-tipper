@@ -20,7 +20,7 @@ jobs:
     - uses: tellor-io/tipper@master
       with:
         network: "rinkeby" #str: choose between "rinkeby" and "mainnet"
-        requestID: 1 # int: the ID of the data type you'd like to tip.
+        requestID: 57 # int: the ID of the data type you'd like to tip.
                    # more info at https://www.tellorscan.com/prices
         dataFreshness: "12 hours" # str: the longest duration of time (ex. 1 day, 2 weeks, etc)
                        # you would wait before requesting new on-chain data
