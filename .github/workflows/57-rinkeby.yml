@@ -13,7 +13,7 @@ jobs:
       uses: actions/checkout@v2
     
     - name: Checkout tipper backend
-      uses: actions/checkout@2
+      uses: actions/checkout@v2
       with:
         repository: tellor-io/tipper
         path: master
