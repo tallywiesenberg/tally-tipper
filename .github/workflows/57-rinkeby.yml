@@ -33,4 +33,3 @@ jobs:
         MAINNET_NODE: ${{ secrets.MAINNET_NODE }} #your JSON-RPC mainnet endpoint.
         RINKEBY_NODE: ${{ secrets.RINKEBY_NODE }} #your JSON-RPC rinkeby endpoint.
         GOERLI_NODE: ${{ secrets.GOERLI_NODE }} #your JSON-RPC goerli endpoint.
-        
