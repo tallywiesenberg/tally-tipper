@@ -9,14 +9,14 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Checkout tip executor
-      uses: actions/checkout@v2
+    # - name: Checkout tip executor
+    #   uses: actions/checkout@v2
     
-    - name: Checkout tipper backend
-      uses: actions/checkout@v2
-      with:
-        repository: tellor-io/tipper
-        path: master
+    # - name: Checkout tipper backend
+    #   uses: actions/checkout@v2
+    #   with:
+    #     repository: tellor-io/tipper
+    #     path: master
       with:
         network: "rinkeby" #str: choose between "rinkeby" and "mainnet"
         requestID: 1 # int: the ID of the data type you'd like to tip.
