@@ -16,9 +16,9 @@ jobs:
     - name: Checkout tipper backend
       uses: actions/checkout@v2
       with:
-        repository: tellor-io/tipper@dockeraction
+        repository: tellor-io/tipper@master
         path: master
-    - uses: tellor-io/tipper@dockeraction
+    - uses: tellor-io/tipper@master
       with:
         network: "rinkeby" #str: choose between "rinkeby" and "mainnet"
         requestID: 57 # int: the ID of the data type you'd like to tip.
