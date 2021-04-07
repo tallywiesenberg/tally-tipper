@@ -15,7 +15,7 @@ jobs:
     - name: Checkout tipper backend
       uses: actions/checkout@v2
       with:
-        repository: tellor-io/tipper@master
+        repository: tellor-io/tipper
         path: master
     - uses: tellor-io/tipper@master
       with:
