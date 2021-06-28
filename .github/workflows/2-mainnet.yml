@@ -1,4 +1,5 @@
-name: ID57
+
+name: ID2
 on:
   schedule: 
   - cron: "0 */6 * * *"  # schedule tipping to your preference https://docs.github.com/en/free-pro-team@latest/actions/reference/events-that-trigger-workflows#scheduled-events
@@ -12,7 +13,7 @@ jobs:
     - uses: tellor-io/tipper@master
       with:
         network: "mainnet" #str: choose between "rinkeby" and "mainnet"
-        requestID: 57 # int: the ID of the data type you'd like to tip.
+        requestID: 2 # int: the ID of the data type you'd like to tip.
                    # more info at https://www.tellorscan.com/prices
         dataFreshness: "12 hours" # str: the longest duration of time (ex. 1 day, 2 weeks, etc)
                        # you would wait before requesting new on-chain data
